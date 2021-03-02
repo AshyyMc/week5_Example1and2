@@ -6,5 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'week5';
+
+  public result:number;
+
+  constructor() {
+  }
+
+ setResult(theResult:number) {
+   this.result=theResult;
+ }
 }
